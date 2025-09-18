@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessibilidade Anderson</title>
+    <link rel="stylesheet" href="parametros.css">
+</head>
+<body>
+    
+    <header class="page-header">
+        <div class="header-buttons">
+            <button id="toggle-grayscale" aria-label="Modo preto e branco"><img src="../Acessibilidade/Fotos/ico-pretobranco.png" alt="Símbolo de inversão de cores"></button>
+            <button id="increase-font" aria-label="Aumentar fonte"><img src="../Acessibilidade/Fotos/ico-amais.png" alt="Aumentar fonte"></button>
+            <button id="decrease-font" aria-label="Diminuir fonte"><img src="../Acessibilidade/Fotos/ico-amenos.png" alt="Diminuir fonte"></button>
+            <button id="toggle-contrast" aria-label="Alto contraste"><img src="../Acessibilidade/Fotos/ico-altocontraste.png" alt="Alto contraste"></button>
+            <button aria-label="Libras"><img src="../Acessibilidade/Fotos/ico-libras.png" alt="Linguagem Brasileira de Sinais"></button>
+            <button aria-label="Comando de voz"><img src="../Acessibilidade/Fotos/ico-voz.png" alt="Ativar comando de voz"></button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div id="text-container">
+            <h1>Testando ferramentas ACD</h1>
+            <br>
+            <a href="#">Link abaixo</a>
+        </div>
+    </main>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+    <section class="image-gallery">
+        <img src="../Acessibilidade/Fotos/1.png" alt="Imagem 1 da galeria">
+        <img src="../Acessibilidade/Fotos/2.png" alt="Imagem 2 da galeria">
+        <img src="../Acessibilidade/Fotos/3.png" alt="Imagem 3 da galeria">
+        <img src="../Acessibilidade/Fotos/4.png" alt="Imagem 4 da galeria">
+        <img src="../Acessibilidade/Fotos/5.png" alt="Imagem 5 da galeria">
+        <img src="../Acessibilidade/Fotos/6.png" alt="Imagem 6 da galeria">
+    </section>
+    
+    <script src="acessibilidade.js"></script>
+</body>
+</html>
